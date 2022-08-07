@@ -8,6 +8,7 @@ public class floatProgram {
 		Scanner s=new Scanner(System.in);
 		float f=s.nextFloat();
 		System.out.println(f);
+		s.close();
 	}
 
 }

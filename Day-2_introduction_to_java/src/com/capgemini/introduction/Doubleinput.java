@@ -9,6 +9,7 @@ public class Doubleinput {
 		System.out.println("enter the value of x");
 		double x=s.nextDouble();
 		System.out.println(x);
+		s.close();
 
 	}
 

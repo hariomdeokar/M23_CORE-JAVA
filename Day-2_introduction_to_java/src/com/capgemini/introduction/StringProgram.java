@@ -8,6 +8,7 @@ public class StringProgram {
 		Scanner s=new Scanner(System.in);
 		String str=s.next();
 		System.out.println(str);
+		s.close();
 		
 	}
 

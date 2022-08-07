@@ -23,7 +23,7 @@ public class RuntimeClassAndObjectProgram {
 		ob.a=s.nextInt();
 		ob.display();
 		System.out.println(ob.a);
-		
+		s.close();
 
 	}
 
