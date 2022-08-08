@@ -6,7 +6,7 @@ public class Factorial {
 	static int factorial(int n)
 	{
 		int i;
-		int fact=1;
+		int fact = 1;
 		for(i=1 ;i<=n;i++);
 		{
 			fact=fact*i;
@@ -21,6 +21,7 @@ public class Factorial {
 		Scanner s=new Scanner(System.in);
 		int n=s.nextInt();
 		System.out.println(factorial(n));
+		s.close();
 		
 
 	}
