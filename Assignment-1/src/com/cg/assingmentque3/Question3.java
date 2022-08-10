@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Question3 
 {  
-    public static void pyramidPattern(int n) 
+    public static void StarPattern(int n) 
     {  
     	   int i,j;
         for ( i=0; i<n; i++)
@@ -20,7 +20,7 @@ public class Question3
 	public static void main(String[] args) {
 		Scanner s=new Scanner(System.in);
 		int n = s.nextInt();
-		pyramidPattern(n);
+		StarPattern(n);
 		s.close();
 		
 		
