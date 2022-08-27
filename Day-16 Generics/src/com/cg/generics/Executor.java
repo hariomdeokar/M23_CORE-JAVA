@@ -5,7 +5,7 @@ public class Executor {
 	public static void main(String[] args) {
 		
 		Sender<String>obj=new Sender<>();
-		obj.setMessage("Generics Class Demo")
+		obj.setMessage("Generics Class Demo");
 		obj.sendMessage();
 		
 		//
@@ -19,7 +19,6 @@ public class Executor {
 		
 		Sender<Email>obj1=new Sender<Email>();
 		obj1.setMessage(em);
-		obj1.setMessage();
 		
 		
 	}

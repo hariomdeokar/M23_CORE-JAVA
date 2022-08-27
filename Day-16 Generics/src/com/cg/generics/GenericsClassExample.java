@@ -10,9 +10,11 @@ public class GenericsClassExample<T>
 	}
 
 	public static void main(String[] args) {
-		// instead of collections I have used Generic class name and generic concept
-		GenericsClassExample<Double>obj=new Genriccla
-
+		//instead of collections i have used Generic class name and generics concept
+		GenericsClassExample<Double>obj=new GenericsClassExample<>();
+		obj.num=13.8;
+		obj.show();
 	}
+
 
 }
