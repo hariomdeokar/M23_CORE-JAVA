@@ -13,7 +13,7 @@ public class IndexArrayOutofboxException
 	        System.out.println("Second line");
 	        try
 	        {
-	        int[] myIntArray = new int[]{1, 2, 3};
+	        int[] myIntArray = new int[]{1, 2, 3, 4};
 	        print(myIntArray);
 	       
 	        }

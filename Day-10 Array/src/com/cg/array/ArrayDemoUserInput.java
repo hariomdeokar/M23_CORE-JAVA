@@ -12,7 +12,7 @@ public class ArrayDemoUserInput {
 		//array declaration
 		int arr[]=new int[size];
 		
-		System.out.println("Enter the values: ");
+		
 		
 		//to enter the element in array
 		
